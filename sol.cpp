@@ -16,7 +16,7 @@ int main() {
 	last_digit = (last_digit == 9 ? 8 : last_digit + 1);
 	// divide the difference by 10 to remove the last digit
 	difference /= 10;
-	// multiply back 10 to the difference to we can insert the new digit
+	// multiply back 10 to the difference so we can insert the new digit
 	difference *= 10;
 	// add the last digit to the difference to get the new number
 	// and now the new difference is different by one digit from
